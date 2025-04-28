@@ -14,9 +14,9 @@ import Trailer from "./Components/partials/Trailer";
 import NotFound from "./Components/NotFound";
 import AboutUs from "./Components/AboutUs";
 import ContactUs from "./Components/ContactUs ";
-import Menu from "./Components/partials/Menu";
 import { useState } from "react";
 import Sidenav from "./Components/partials/Sidenav";
+import Menu from "./Components/partials/Menu";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
